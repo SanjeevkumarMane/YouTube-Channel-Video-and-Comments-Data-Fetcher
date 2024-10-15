@@ -3,7 +3,7 @@ import pandas as pd
 
 # Set up the YouTube API client
 def get_youtube_client():
-    api_key = "AIzaSyB0oMJv2rBcCIB2-4vjApAvmUy1G-Mvtlw"  # Replace with your valid API key
+    api_key = "YOUR_API_KEY"  # Replace with your valid API key
     return googleapiclient.discovery.build("youtube", "v3", developerKey=api_key)
 
 # Get the channel ID using the handle
